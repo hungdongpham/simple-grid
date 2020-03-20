@@ -10,8 +10,8 @@
     "immutable": "3.8.2",
     "react": "16.7.0-alpha.0 - next",
     "react-data-grid": "5.0.1",
-    "react-data-grid-addons": "^7.0.0-alpha.24",
-    "react-dom": "16.7.0-alpha.0 - next",
+    "react-data-grid-addons": "5.0.4",
+    "react-dom": "^16.6.1",
     "react-scripts": "2.0.3",
     "semantic-ui-react": "^0.88.2"
   },

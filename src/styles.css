@@ -93,3 +93,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+#root .react-grid-Container{
+  margin: 0px 15px;
+}

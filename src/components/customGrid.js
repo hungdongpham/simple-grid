@@ -6,6 +6,7 @@ import { Button } from 'semantic-ui-react';
 import CustomContextMenu from './customContextMenu';
 
 const { ContextMenuTrigger } = Menu;
+const MIN_HEIGHT_GRID = 550;
 const ROW_COUNT = 100000;
 const MORE_ROWS = 1000;
 
@@ -82,6 +83,7 @@ class CustomGrid extends React.Component {
           rowsCount={rowCount}
           onGridRowsUpdated={this.onGridRowsUpdated}
           enableCellSelect={true}
+          minHeight={MIN_HEIGHT_GRID}
           cellRangeSelection={{
             onStart: args => console.log(rows),
             onUpdate: args => console.log(rows),
