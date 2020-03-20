@@ -14,7 +14,6 @@ const columns = prepareAlphabets();
 const rows = createRowData(ROW_COUNT, 0);
 
 
-
 class CustomGrid extends React.Component {
   constructor(props) {
     super(props);
