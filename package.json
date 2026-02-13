@@ -12,7 +12,7 @@
     "react-data-grid": "5.0.1",
     "react-data-grid-addons": "5.0.4",
     "react-dom": "^16.6.1",
-    "react-scripts": "2.0.3",
+    "react-scripts": "5.0.1",
     "semantic-ui-react": "^0.88.2"
   },
   "devDependencies": {},
